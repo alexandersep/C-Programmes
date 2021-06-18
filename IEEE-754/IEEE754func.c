@@ -44,6 +44,7 @@ unsigned int fp_enc(int fraction, int exponent)
         isNeg = 1;
     }
     unsigned char countOfZeros = clz(fraction); /* count that is memory efficient */
+    printf("count of zeros is %d\n", countOfZeros);
     if (countOfZeros < 8)
     {
         countOfZeros = 8 - countOfZeros;
