@@ -8,5 +8,6 @@ int partition(int *pArray, int lo, int hi);
 
 void swap(int *pArray, int aIndex, int bIndex);
 
+void printArray(signed int * pArray, int numOfElements);
 
 #endif
