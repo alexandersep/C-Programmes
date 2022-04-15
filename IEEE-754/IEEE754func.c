@@ -1,4 +1,5 @@
 #include "IEEE754func.h"
+#include <stdio.h>
 
 int fp_exp(unsigned int IEEE_num)
 {   
